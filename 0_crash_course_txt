@@ -1,0 +1,96 @@
+   1: import numpy as np
+   2: from sklearn.preprocessing import MinMaxScaler
+   3: data = np.random.randint(0,100,(10,2))
+   4: data
+   5: scaler_model = MinMaxScaler()
+   6: scaler_model?
+   7: scaler_model?
+   8: scaler_model.fit(data)
+   9: scaler_model
+  10: scaler_model.transform(data)
+  11: scaler_model.fit_transform(data)
+  12: clear
+  13: import pandas as pd
+  14: data = pd.DataFrame(data=np.random.randint(0,101,(50,4)))
+  15: data
+  16: df = pd.DataFrame(data=np.random.randint(0,101,(50,4)), columns = ['f1','f2','f3','labe'])
+  17: df
+  18: df = pd.DataFrame(data=np.random.randint(0,101,(50,4)), columns = ['f1','f2','f3','label'])
+  19: df
+  20: df = pd.DataFrame(data=np.random.randint(0,101,(50,4)), columns = ['f1','f2','f3','label'])
+  21: clear
+  22: df
+  23: clear
+  24: X = df['f1','f2','f3']
+  25: clea
+  26: clear
+  27: X = df[['f1','f2','f3']]
+  28: X
+  29: clear
+  30: y = df[['label']]
+  31: y
+  32: clear
+  33: from sklearn.model_selection import train_test_split
+  34: train_test_split?
+  35: X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.33, random_state=42)
+  36: X_train
+  37: X_test
+  38: clear
+  39: X_train.shape
+  40: X_train.test
+  41: X_test.shape
+  42: clear
+  43: y_train.shape
+  44: y_test.shape
+  45: clear
+  46: import np as np
+  47: clear
+  48: import numpy as np
+  49: np.random.seed(101)
+  50: matrix = np.random.randint(1,100,(100,5))
+  51: matrix
+  52: clear
+  53: import matplotlib.pyplot as plt
+  54: plt.imshow(matrix)
+  55: plat.show()
+  56: plt.show()
+  57: clear
+  58: import numpy as np
+  59: import pandas as pd
+  60: import matplotlib.pyplot as plt
+  61: from sklearn.preprocessing import MinMaxScaler
+  62: from sklearn.model_selection import train_test_split
+  63: np.random.seed(101)
+  64: mat = np.random.randint(1,100,(100,5))
+  65: mat
+  66: clear
+  67: plt.imshow(mat)
+  68: plt.colorbar()
+  69: plt.title('My Plot')
+  70: plt.show()
+  71: plt.imshow(mat, aspect=0.05)
+  72: plt.colorbar()
+  73: plt.title('My Plot')
+  74: plt.show()
+  75: df = pd.DataFrame(data=mat)
+  76: df
+  77: df.plot(x=0, y=1, kind='scatter')
+  78: plt.show()
+  79: scaler = MinMaxScaler()
+  80: result = scaler.fit_transform(df)
+  81: result
+  82: df.columns = ['f1','f2','f3','f4','label']
+  83: df.show()
+  84: df
+  85: df.head(10)
+  86: X = df[['f1','f2','f3','f3']]
+  87: y = df['label']
+  88: train_test_split?
+  89: >>> X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.33, random_state=42)
+  90: Xtrain
+  91: X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.33, random_state=42)
+  92: X_train
+  93: X_train.shape()
+  94: X_train.shape
+  95:  %history -g -f '0_crash_course.txt'
+
